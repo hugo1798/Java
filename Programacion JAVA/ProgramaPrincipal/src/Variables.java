@@ -9,6 +9,16 @@ public class Variables{
 
         // se pueden inicializar variables fuera del metodo main, 
         //pero esto ya seria generar atributos para nuestra clase
+        
+        int _miVariable = 20;
 
+        // Un atajo para no tener que escribir todo el comando de
+        //impresion en consola, es escribiendo sout y presionando 
+        //la tecla tab
+        System.out.println(_miVariable);
+
+        int $miVariable = 30;
+
+        System.out.println($miVariable);
     }
 }
