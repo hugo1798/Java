@@ -1,0 +1,89 @@
+------------------------------------------------------------------------------
+INTRODUCCION
+------------------------------------------------------------------------------
+Creado en 1995
+Dueno es Oracle
+No solo es un lenguaje de programacion sino que es toda una plataforma 
+Utilizado para
+	Aplicaciones moviles
+	Aplicaciones de escritorio 
+	Aplicaciones web
+	Servidores web y servidores de aplicaciones
+	Juegos
+	Conexion de bases de datos
+Funciona en cualquier sistema operativo
+Sintaxis parecida a c++
+Estricto en el uso de su sintaxis
+------------------------------------------------------------------------------
+INSTALACION DE JAVA
+------------------------------------------------------------------------------
+Se utiliza el Java Development Kit (JDK)
+Seleccionar la ultima version y descargar segun el sistema operativo que
+tengamos
+Puede instalarse con todos los valores por default
+Trataremos de utilizar Visual Studio Code para trabajar, para esto es necesario
+anadir la extension para trabajar en Java, la cual se instala en la seccion de
+extensions
+Seguido de esto, creamos una carpeta y la arrastramos directamente a Visual, 
+para hacer esto, debemos de tener cerrado cualquier workspace
+------------------------------------------------------------------------------
+COMO CREAR PROYECTOS EN VISUAL 
+------------------------------------------------------------------------------
+Para trabajar en visual, despues de instalar la extension de java, en la parte
+inferior vamos a encontrar que se nos menciona crear un proyecto de java. Al
+crearlo nos menciona que si queremos utilizar alguna herramienta para la con
+struccion, de momento no se selecciona ninguna. Al crear el proyecto, se crean
+3 carpetas: .vscode, lib y src. Dentro de la carpeta src es donde aparecera
+nuestro codigo y es donde vamos a trabajar
+Dentro de la carpeta source creamos un nuevo archivo <nuevoarchivo.java>
+Dentro de este nuevo archivo, la clase que estamos creando se tiene que llamar 
+exactamente igual que el archivo
+Dentro de las llaves se encuentra el cuerpo de nuestra clase
+------------------------------------------------------------------------------
+VARIABLES EN JAVA
+------------------------------------------------------------------------------
+Para poder acceder a la consola para poder imprimir utilizamos el atributo .out
+En este lenguaje se puede hacer la concatenacion de las variables, es decir, en
+lugar de utilizar la coma para agregar la variable a la impresion en consola, 
+se utiliza el simbolo de +
+Las variables tienen reglas para poder ser definidas
+	Pueden contener letras, digitos y algunos caracteres especiales como 
+	lo son _ y $
+	Pueden contener una letra, _ o $ al inicio
+	Debe iniciar con letra minuscula y sin espacios
+	Es sensible a mayusculas y minusculas
+	No se pueden usar palabras reservadas
+------------------------------------------------------------------------------
+TIPOS DE DATOS EN JAVA
+------------------------------------------------------------------------------
+-Tipos primitivos
+entero
+	int 
+entero pero de valor mas grande, es decir, con mas digitos
+	long variable = 100L;
+		Con la L en el valor indicamos de que tipo se va a crear dicho
+		valor en memoria
+Al valor dentro de una variable, tambien se le conoce como literal
+tipo flotante
+	float variable = 4.5F;
+		Es necesario que se coloque la F ya que todas las variables de 
+		punto flotante en java son de tipo double
+	La variable de tipo flotante almacena un valor menor a las de tipo double
+double
+	Almacena valores decimales de mayor cantidad
+	double variable = 6.56D;
+		Es opcional colocar la D ya que todas las variables de punto 
+		flotante son de tipo double de manera automatica
+caracter
+	Para la definicion de esta literal, es necesario colocarlo dentro de
+	comillas simples
+	char variable = '';
+	Para este tipo de variable tambien se puede utilizar el valor decimal 
+	del caracter segun el codigo ascii
+boleanos
+	boolean variable = true;
+-EXCEPCION
+cadena
+	Mas que un tipo, es una clase
+	string variable = ""
+
